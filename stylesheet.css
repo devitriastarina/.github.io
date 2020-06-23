@@ -1,0 +1,232 @@
+
+  box-sizing: border-box;
+}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+}
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: left;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  padding: 100px 0 100px 0;
+  color: white;
+  height: auto;
+  background-image: url(pixel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.top-wrapper h1 {
+  oppacity:1;
+  font-size: 50px;
+  letter-spacing: 4px;
+  padding-top: 55px;
+  margin-bottom: 25px;
+}
+.top-wrapper h2 {
+  oppacity:1;
+  font-size: 50px;
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+}
+.top-wrapper p {
+  opacity:1;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  font-size: 25px;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 8px;
+  text-align: center;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.email {
+  background-color: #27ae60;
+}
+
+.facebook {
+  background-color: #c0392b;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.3);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+
+.header-left {
+  float: left;
+  font-size: 28px;
+  width: 124px;
+  margin-top: 20px;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+  display: inline-block;
+  border: 2px;
+}
+.header-right:hover {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  float: right;
+  opacity: 1;
+}
+.header-right a:hover {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+.signup {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.login {
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;/
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-size: 35px;
+}
+.heading p {
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.heading h3 {
+  font-weight: normal;
+  font-size: 35px;
+  padding-top: 80px;
+}
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.heading h4 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+footer {
+  padding-top: 10px;
+  background-color: rgba(0, 0, 255, 0.3);
+  padding-bottom: 5px;
+  opacity: 1;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
